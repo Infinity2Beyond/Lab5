@@ -19,16 +19,16 @@ public class HumanAskers {
 		fileMode = false ;
 	}
 	/**
-     * Sets a InputStream to scan user input.
+     * Sets a Scanner to scan user input.
      * 
-     * @param inputReader InputStreamReader to set.
+     * @param Scanner  to set.
      */
 	public void setUserInputReader(Scanner UserinputReader) {
 		this.UserinputReader = UserinputReader ;
 	}
 	 /**
-     * Get InputStreamReaderr when interacting with Console.
-     * @return InputStreamReaderr, which uses for user input.
+     * Get Scanner when interacting with Console.
+     * @return Scanner, which uses for user input.
      */
 	public Scanner getUserInputReader() {
 		return UserinputReader ;
@@ -111,9 +111,9 @@ public class HumanAskers {
         return name;
     }
 	/**
-     * Asks a user the organization's X coordinate.
+     * Asks a user the humanbeing's X coordinate.
      * 
-     * @return Organization's X coordinate.
+     * @return humanbeing's X coordinate.
      * @throws IncorrectInputInScriptException If script is running and something
      *                                         goes wrong.
      */
@@ -152,9 +152,9 @@ public class HumanAskers {
         return x;
     }
     /**
-     * Asks a user the organization's Y coordinate.
+     * Asks a user the humanbeing's Y coordinate.
      * 
-     * @return Organization's Y coordinate.
+     * @return humanbeing's Y coordinate.
      * @throws IncorrectInputInScriptException If script is running and something
      *                                         goes wrong.
      */
@@ -480,7 +480,7 @@ public class HumanAskers {
     	
     @Override
     public String toString() {
-        return "HumanAsker (helper class for queries to the user)";
+        return "HumanAsker (helper class for communication with the user)";
     }
 }
 
